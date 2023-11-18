@@ -101,7 +101,7 @@ This repo only takes you through how to build a webpage.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](coming soon)
+- [Live Demo Link](https://exploring-styles-and-layout.netlify.app/)
 
 <!-- GETTING STARTED -->
 
