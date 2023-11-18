@@ -37,7 +37,7 @@ For more information on the importance of a professional README for your reposit
 
 </div>
 
-# 📖 [Easybanking] <a name="about-project"></a>
+# 📖 [Layout and Styles] <a name="about-project"></a>
 
 <a name="readme-top"></a>
 
