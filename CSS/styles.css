@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins', sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.title-bar h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+.title-bar img {
+  display: flex;
+  width: 100px;
+  height: 50px;
+  margin-right: auto;
+}
+
+header,
+footer {
+  background-color: #3498db;
+  padding: 20px;
+  color: #fff;
+  text-align: center;
+}
+.menu {
+  background-color: #ffef45;
+  width: 980px;
+  margin: 0 auto;
+  height: 98px;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  color: #fff;
+}
+
+.menu ul li {
+  margin-right: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+}
+
+.menu li:hover {
+  background-color: #fff;
+  color: #3498db;
+}
+
+main h2 {
+  text-align: center;
+  color: #3498db;
+}
+
+.content {
+  border: 2px solid #34db82;
+  background-color: #ecf0f1;
+  padding: 20px;
+  margin: 20px;
+  display: flex;
+}
+
+.box {
+  flex: 1;
+  margin: 0 10px;
+  padding: 20px;
+  border: 1px solid #95a5a6;
+  background-color: #34db82;
+  color: #ffffff;
+}
+/* styling the grid section */
+#grid-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 100px);
+  gap: 10px;
+  margin: 50px;
+}
+
+.grid-item {
+  background-color: #707b75;
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+}
+
+/* footer */
+#templatemo_footer {
+  clear: both;
+  width: 840px;
+  padding: 30px;
+  margin: 0 150px;
+  text-align: center;
+  color: #0f0d0c;
+}
+
+#templatemo_footer a {
+  color: #265f3b;
+}
+
+#templatemo_footer a:hover {
+  color: #ffffff;
+}
+
+#templatemo_footer .footer_menu {
+  margin: 0 0 10px 0;
+  padding: 0px;
+  list-style: none;
+}
+
+.footer_menu li {
+  margin: 0px;
+  padding: 0 20px;
+  display: inline;
+  border-right: 1px solid #7c7471;
+}
+
+.footer_menu .last_menu {
+  border: none;
+}
+/* end of footer */
