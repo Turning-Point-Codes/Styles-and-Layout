@@ -56,3 +56,34 @@ footer {
   cursor: pointer;
   padding: 10px;
 }
+
+.menu ul li a {
+  text-decoration: none;
+}
+
+.menu li:hover {
+  background-color: #fff;
+  color: #3498db;
+}
+
+main h2 {
+  text-align: center;
+  color: #3498db;
+}
+
+.content {
+  border: 2px solid #34db82;
+  background-color: #ecf0f1;
+  padding: 20px;
+  margin: 20px;
+  display: flex;
+}
+
+.box {
+  flex: 1;
+  margin: 0 10px;
+  padding: 20px;
+  border: 1px solid #95a5a6;
+  background-color: #34db82;
+  color: #ffffff;
+}
